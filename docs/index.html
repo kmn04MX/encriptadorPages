@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="images/Logo.png" alt="logoAlura">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="messageleft">
+                <div class="message__container">
+                    <input type="text" placeholder="Ingresa el texto aquí" class="message__container--input">
+                </div>
+    
+                <div class="message__warning">
+                    <img src="images/warning.png" alt="sólo letras mayúsculas y minúsculas" class="message__warning--icon">
+                    <p class="message__warning--text">Sólo letras mayúsculas y minúsculas</p>
+                </div>
+                <div class="buttons">
+                    <button class="button button__encriptar" id="id">Encriptar</button>
+                    <button class="button button__desencriptar">Desencriptar</button>
+                </div>
+                
+            </div>
+            <div class="messageright">
+                <div class="image__content">
+                    <img src="images/Muñeco.png" alt="no hubo ningún mensaje" class="image__content--notfound">
+                </div>
+                <div class="message__output">
+                    <h1 class="message__output--notfound">Ningún mensaje fue encontrado</h1>
+                    <p class="message__output--text">Ingresa el texto que desse encriptar o desencriptar</p>
+                    
+                    <div class="messagedesencriptar">
+                        <p class="messagedesencriptar__text"></p>
+                    </div>
+                    <button class="button button__copy">Copiar</button>
+                </div>
+                
+            </div>
+            
+        </section>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
+
